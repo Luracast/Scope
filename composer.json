@@ -1,21 +1,21 @@
 {
-  "name": "ergebnis/php-package-template",
-  "description": "Provides a GitHub repository template for a PHP library, using GitHub Actions.",
+  "name": "luracast/scope",
+  "description": "Standalone scope manager from Restler",
   "license": "MIT",
   "type": "library",
   "authors": [
     {
-      "name": "Andreas Möller",
-      "email": "am@localheinz.com"
+      "name": "Arul Kumaran",
+      "email": "arul@luracast.com"
     }
   ],
-  "homepage": "https://github.com/ergebnis/php-package-template",
+  "homepage": "https://github.com/Luracast/Scope",
   "support": {
-    "issues": "https://github.com/ergebnis/php-package-template/issues",
-    "source": "https://github.com/ergebnis/php-package-template"
+    "issues": "https://github.com/Luracast/Scope/issues",
+    "source": "https://github.com/Luracast/Scope"
   },
   "require": {
-    "php": "^7.4 || ^8.0"
+    "php": "^8.1"
   },
   "require-dev": {
     "ergebnis/composer-normalize": "^2.28.0",
@@ -36,12 +36,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Ergebnis\\Package\\": "src/"
+      "Luracast\\Scope\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Ergebnis\\Package\\Test\\": "test/"
+      "Luracast\\Scope\\Test\\": "test/"
     }
   },
   "config": {
@@ -52,7 +52,7 @@
       "phpstan/extension-installer": true
     },
     "platform": {
-      "php": "7.4.16"
+      "php": "8.1.5"
     },
     "preferred-install": "dist",
     "sort-packages": true

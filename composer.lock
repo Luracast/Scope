@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9ce3332ab1ed0747ee18df9819741b41",
+    "content-hash": "c84dd27b627efd36fb8df7c6e00d97b7",
     "packages": [],
     "packages-dev": [
         {
@@ -2680,16 +2680,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.7.14",
+            "version": "1.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "e6f145f196a59c7ca91ea926c87ef3d936c4305f"
+                "reference": "a59c8b5bfd4a236f27efc8b5ce72c313c2b54b5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e6f145f196a59c7ca91ea926c87ef3d936c4305f",
-                "reference": "e6f145f196a59c7ca91ea926c87ef3d936c4305f",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/a59c8b5bfd4a236f27efc8b5ce72c313c2b54b5f",
+                "reference": "a59c8b5bfd4a236f27efc8b5ce72c313c2b54b5f",
                 "shasum": ""
             },
             "require": {
@@ -2713,9 +2713,13 @@
                 "MIT"
             ],
             "description": "PHPStan - PHP Static Analysis Tool",
+            "keywords": [
+                "dev",
+                "static analysis"
+            ],
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/1.7.14"
+                "source": "https://github.com/phpstan/phpstan/tree/1.9.1"
             },
             "funding": [
                 {
@@ -2727,15 +2731,11 @@
                     "type": "github"
                 },
                 {
-                    "url": "https://www.patreon.com/phpstan",
-                    "type": "patreon"
-                },
-                {
                     "url": "https://tidelift.com/funding/github/packagist/phpstan/phpstan",
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-06-14T13:09:35+00:00"
+            "time": "2022-11-04T13:35:59+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
